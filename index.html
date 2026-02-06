@@ -3,20 +3,19 @@
 <head>
   <title>Community Maintenance Solution</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
 </head>
 <body>
 
 <h2>Community Maintenance Solution</h2>
 
-<form>
-  <input type="text" placeholder="Your Name" required><br><br>
-  <input type="text" placeholder="Mobile Number" required><br><br>
-  <input type="text" placeholder="Area / Location" required><br><br>
-  <textarea placeholder="Enter your complaint" required></textarea><br><br>
-  <button onclick="submitted()">Submit Complaint</button>
+<form id="complaintForm">
+  <input type="text" id="name" placeholder="Your Name" required><br><br>
+  <input type="text" id="location" placeholder="Area / Location" required><br><br>
+  <textarea id="complaint" placeholder="Enter your complaint" required></textarea><br><br>
+  <button type="submit">Submit Complaint</button>
 </form>
 
 <script src="script.js"></script>
+
 </body>
 </html>
