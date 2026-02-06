@@ -30,6 +30,12 @@ if (data) {
       <td>${data.status}</td>
     </tr>
   `;
+} else {
+  document.getElementById("tableData").innerHTML = `
+    <tr>
+      <td colspan="4">No complaints yet</td>
+    </tr>
+  `;
 }
 </script>
 
